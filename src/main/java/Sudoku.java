@@ -11,7 +11,7 @@ class Sudoku {
     }
 
 
-    public boolean onSudoku() {
+    protected boolean onSudoku() {
         for (int i = 0; i < 9; i++) {
 
             int[] row = new int[9];
@@ -28,7 +28,7 @@ class Sudoku {
         return true;
     }
 
-    private boolean validate(int[] check) {
+    protected boolean validate(int[] check) {
         int i = 0;
         Arrays.sort(check);
         for (int number : check) {

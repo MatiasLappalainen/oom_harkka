@@ -199,5 +199,33 @@ class Color {
 
 \end{lstlisting}
 
+\newpage
+
+\begin{3}
+tehtävän ensimmäinen metodi palauttaa väri olion annetuista coordinaateista.
+
+\begin{lstlisting}
+    /**
+    ** @.pre |x| < width/2 && |y| < height/2 && x != null && y != null
+    ** @.post RESULT == COLOR
+    */
+    readCell(int x, int y)
+\end{lstlisting}
+
+WriteCell methodi lisää väri olion koordinaatteihin x, y
+
+\begin{lstlisting}
+    /**
+    ** @.pre x != null && y != null && Color == Color
+    ** @.post true
+    */
+    writeCell(int x, int y, Color)
+\end{lstlisting}
+
+Width ja height kertovat ruudukon dimensiot.
+
+Ainakin readCell methodin määrittelyä tulee muuttaa siten, että methodi voi palauttaa myös undefinedia, sillä muistipaikalla ei ole mitään.
+
+\end{3}
 
 \end{document}
