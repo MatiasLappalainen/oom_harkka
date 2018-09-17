@@ -1,0 +1,106 @@
+\documentclass[a4paper,12pt,titlepage]{article}
+\usepackage{amssymb,amsthm,amsmath} %ams
+\usepackage[finnish]{babel} %suomenkielinen tavutus
+\usepackage[T1]{fontenc}    % kirjasimen kooditaulukko
+\usepackage[utf8]{inputenc} % skandit utf-8 koodauksella (uudet tiedostot)
+%\usepackage[latin1]{inputenc} % skandit utf-8 koodauksella (vanhat tiedostot)
+
+\usepackage{graphicx} %dokumentti sisältää eps-muotoisia kuvia
+\usepackage{pstricks,pst-node,pst-text,pst-3d} %PostScript olioiden tekoon
+%\usepackage{icomma} % desimaalipilkku kaavoissa
+
+\linespread{1.24} %riviväli 1.5
+\sloppy % Vähentää tavutuksen tarvetta, "leventämällä" rivin keskellä olevia välilyöntejä.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Lauseille, määritelmille ja muille vastaaville voidaan määritellä omat ympäristöt, jolloin
+% niille saadaan yhtenäinen ulkoasu. Numerointi tapahtuu lukukohtaisesti ja useampi ympäristö
+% linkitetään käyttämään samaa laskuria.
+%
+% Ympäristöt maar, lemma, lause, esim, huom käyttävät
+% Ympäristölle 'lemma' voitaisiin määritellä myös oma laskurinsa.
+% \newtheorem{lemma}{Lemma}[section]
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{definition}
+\newtheorem{maar}{Määritelmä}[section]
+\newtheorem{lemma}[maar]{Lemma}
+\newtheorem{seur}[maar]{Seuraus}
+\newtheorem{lause}[maar]{Lause}
+\newtheorem{esim}[maar]{Esimerkki}
+
+% englanninkieliset mukaan mukavuussyistä
+\newtheorem{definition}{Määritelmä}[section]
+%\newtheorem{lemma}[maar]{Lemma}
+\newtheorem{corollary}[maar]{Seuraus}
+\newtheorem{theorem}[maar]{Lause}
+\newtheorem{example}[maar]{Esimerkki}
+
+\theoremstyle{remark}
+\newtheorem{huom}[maar]{Huomautus}
+\newtheorem*{huom*}{Huomautus}
+
+% englanninkieliset mukaan mukavuussyistä
+\newtheorem{remark}[maar]{Huomautus}
+
+\makeatletter
+\newenvironment{tod}[1][\todname]{\par
+  \pushQED{\qed}%
+  \normalfont \topsep6\p@\@plus6\p@\relax
+  \trivlist
+  \item[\hskip\labelsep
+        \itshape
+    #1\@addpunct{.}]\ignorespaces
+}{%
+  \popQED\endtrivlist\@endpefalse
+}
+\providecommand{\todname}{Todistus}
+\def\textfontii{\the\textfont\tw@}
+\def\AmSTeX{{\textfontii A\kern-.1667em%
+  \lower.5ex\hbox{M}\kern-.125emS}-\TeX\spacefactor1000 }
+\makeatother
+
+% Yleisimmin käyttettäville komennoille voi määritellä lyhynnemerkintöjä
+% esimerkiksi
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\abs}[1]{\left\vert{#1}\right\vert} % Itseisarvo
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   käyttäjän täytettävä alue alkaa
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% käyttäjän omat määrittelyt
+\newcommand{\bx}{\mathbf{x}}
+
+\title{Olio-ohjelmoinnin metodiikka}
+\author{Etunimi Sukunimi\\[1cm]
+ Turun yliopisto}
+\date{Syyskuu 2018}
+
+\begin{document}    % tekstin muodostus alkaa
+\maketitle          % tuottaa nimiön
+\tableofcontents    % tuottaa sisällysluettelon
+%\clearpage % poista kommentti merkki, jos haluat sivunvaihdon sisällysluettelon jälkeen
+
+
+\section{}
+
+Ei ole luokkaa, jolla olisi toiminnallisuutta värien lisäykseen, eli päivitysten tekeminen olisi hankalaa. Värejä on vain kymmenen, joten mainiin täytyy lisätä lisää värejä tarvittaessa. Sovelluskehitykseen ohjelma on todella huono ja puutteellinen. Värejä voi määritellä vain heksalla, ei rgba:lla tai muilla värinmääritysmenetelmillä. 
+
+
+\addcontentsline{toc}{section}{Kirjallisuutta} % lisätään sisällysluettelon tietoihin
+\renewcommand{\refname}{Kirjallisuutta} % otsikon muutos
+
+% kirjallisuusluettelo
+\begin{thebibliography}{99}
+\bibitem{} 
+\end{thebibliography}
+
+\end{document}
