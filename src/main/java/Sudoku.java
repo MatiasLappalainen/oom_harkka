@@ -1,12 +1,12 @@
 import java.util.Arrays;
 
-class SudokuMain {
+class Sudoku {
 
     public int[][] sudoku;
 
     public final int koko = 9;
 
-    public SudokuMain() {
+    public Sudoku() {
         this.sudoku = new int[koko][koko];
     }
 

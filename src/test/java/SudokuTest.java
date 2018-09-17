@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @DisplayName("Testing Sudoku")
 class SudokuTest {
 
-    SudokuMain sudoku;
+    Sudoku sudoku;
 
     @BeforeEach
     void init() {
@@ -16,7 +16,7 @@ class SudokuTest {
     @RepeatedTest(1000)
     void test1() {
 
-        sudoku = new SudokuMain();
+        sudoku = new Sudoku();
 
         sudoku.generateSudoku();
 

@@ -7,13 +7,13 @@ public class main {
 
         Colors colors = new Colors();
 
-       /* SudokuMain sudoku = new SudokuMain();
+        Sudoku sudoku = new Sudoku();
         sudoku.generateSudoku();
         sudoku.displaySudoku();
         System.out.println(sudoku.onSudoku());
         sudoku.rotateSudoku();
         sudoku.displaySudoku();
-        System.out.println(sudoku.onSudoku());*/
+        System.out.println(sudoku.onSudoku());
     }
 
 
