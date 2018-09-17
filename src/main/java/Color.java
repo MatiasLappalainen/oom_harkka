@@ -18,8 +18,8 @@ class Color {
      * @.pre != null
      * @.post RESULT === (comparable.length === 7 && comparable[0] === '#')
      */
-    public boolean isEqual(String comparable) {
-        return this.hex.equals(comparable);
+    public boolean isEqual(Color comparable) {
+        return this.hex.equals(comparable.getName());
     }
 
     // Return color name
