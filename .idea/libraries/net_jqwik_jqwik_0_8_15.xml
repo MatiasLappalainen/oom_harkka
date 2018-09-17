@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="net.jqwik:jqwik:0.8.15" type="repository">
+    <properties maven-id="net.jqwik:jqwik:0.8.15" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jqwik-0.8.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-platform-engine-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opentest4j-1.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-platform-commons-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/apiguardian-api-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
