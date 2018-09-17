@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Random;
-
 class Color {
 
     // Define class parameters

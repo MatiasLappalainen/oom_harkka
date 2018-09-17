@@ -17,7 +17,7 @@ public class Colors {
 
     /**
      * Method will pick one pre defined colour from arrayList
-     * @.pre (ArrayList =! null) &&  0<=tmp<10
+     * @.pre (ArrayList != null) &&  0<=tmp<10
      * @.post RESULT.length == 7
      */
     public String randomize(ArrayList<Color> Colors) {
