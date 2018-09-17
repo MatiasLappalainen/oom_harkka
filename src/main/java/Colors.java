@@ -13,9 +13,6 @@ public class Colors {
         for(String c : colors) {
             Colors.add(new Color(c, c));
         }
-
-       testColors(Colors);
-
     }
 
     /**
@@ -30,10 +27,7 @@ public class Colors {
     }
 
 
-    public void testColors(ArrayList<Color> colorList) {
-        System.out.println(Colors.get(0).isEqual(colorList.get(0).getName()));
-        System.out.println(randomize(colorList));
+    public ArrayList<Color> getColors() {
+        return Colors;
     }
-
-
 }
