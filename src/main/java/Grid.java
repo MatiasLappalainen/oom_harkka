@@ -1,5 +1,3 @@
-package main.java;
-
 public class Grid {
 
     int width;
@@ -33,9 +31,7 @@ public class Grid {
         return grid[x][y];
     }
     void writeCell(int x, int y, Color newColor) {
-        this.x = x;
-        this.y = y;
-        this.newColor = new Color();
+        grid[x][y] = newColor;
     }
 
     //Color readCell(int x, int y);

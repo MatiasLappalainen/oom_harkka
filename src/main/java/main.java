@@ -19,7 +19,7 @@ public class main {
 
         Grid grid = new Grid(10, 10);
         grid.writeCell(0, 0, new Color("#a958a5", "#a958a5"));
-        System.out.println(grid.readCell(0, 0));
+        System.out.println(grid.readCell(0, 0).getHex());
 
     }
 
