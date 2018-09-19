@@ -1,40 +1,13 @@
 import java.util.*;
 public class tetrisTest {
-    public static void main(String[] args){
-        
-        Random rand = new Random();
-        drawMatrix(matrixPyramid());
-        System.out.println();
-        drawMatrix(rotateNinety(matrixPyramid()));
-        /**järkyttävää paskaa */
-        /*while(true){
-        if(rand.nextInt(7) == 0){
-            drawMatrix(matrixJ());
-        }
-        else if(rand.nextInt(7) == 1){
-            drawMatrix(matrixL());
-        }
-        else if(rand.nextInt(7) == 2){
-            drawMatrix(matrixSquare());
-        }
-        else if(rand.nextInt(7) == 3){
-            drawMatrix(matrixLong());
-        }
-        else if(rand.nextInt(7) == 4){
-            drawMatrix(matrixZag());
-        }
-        else if(rand.nextInt(7) == 5){
-            drawMatrix(matrixZig());
-        }
-        else{
-            drawMatrix(matrixPyramid());
-        }
-        break;
-    }*/
-}
 
-public static String[][] matrixJ(){
-    String[][] matrix = new String[3][3];
+    public String[][] matrix = new String[4][4];
+
+    public void setMatrix(String[][] matrix) {
+        this.matrix = matrix;
+    }
+
+    public String[][] matrixJ(){
     int i = 0;
     while (i < 3){
         matrix[1][i] = "*";
@@ -44,8 +17,8 @@ public static String[][] matrixJ(){
     return matrix;
 }
 
-public static String[][] matrixL(){
-    String[][] matrix = new String[3][3];
+public String[][] matrixL(){
+
     int i = 0;
     while (i < 3){
         matrix[1][i] = "*";
@@ -55,8 +28,8 @@ public static String[][] matrixL(){
     return matrix;
 }
 
-public static String[][] matrixSquare(){
-    String[][] matrix = new String[2][2];
+public String[][] matrixSquare(){
+
     for(int i = 0; i < 2; i++){
         int a = 0;
         while(a < 2){
@@ -67,16 +40,15 @@ public static String[][] matrixSquare(){
     return matrix;
 }
 
-public static String[][] matrixLong(){
-    String[][] matrix = new String[4][4];
+public String[][] matrixLong(){
     for(int i = 0; i < 4; i++){
         matrix[i][2] = "*";
     }
     return matrix;
 }
 
-public static String[][] matrixZig(){
-    String[][] matrix = new String[3][3];
+public String[][] matrixZig(){
+
     for(int i = 1; i < 3; i++){
         matrix[i][0] = "*";
     }   
@@ -86,8 +58,8 @@ public static String[][] matrixZig(){
     return matrix;
 }
 
-public static String[][] matrixZag(){
-    String[][] matrix = new String[3][3];
+public String[][] matrixZag(){
+
     for(int i = 0; i < 2; i++){
         matrix[i][0] = "*";
     }
@@ -97,8 +69,8 @@ public static String[][] matrixZag(){
     return matrix;
 }
 
-public static String[][] matrixPyramid(){
-    String[][] matrix = new String[3][3];
+public String[][] matrixPyramid(){
+
     matrix[1][0] = "*";
     for(int i = 0; i < 3; i++){
         matrix[i][1] = "*";
@@ -106,7 +78,7 @@ public static String[][] matrixPyramid(){
     return matrix;
 }
 
-public static void drawMatrix(String[][] matrix){
+public void drawMatrix(){
     for(int b = 0; b < matrix.length; b++){
         for(int a = 0; a < matrix.length; a++){
             if (matrix[a][b] == null){
@@ -118,15 +90,16 @@ public static void drawMatrix(String[][] matrix){
 }
 }
 
-public static String[][] rotateNinety(String[][] matrix){
+public void rotateNinety(){
     String[][] tmpMatrix = new String[matrix.length][matrix.length];
-    for(int i = 0; i < matrix.length; i++){
-        for(int a = 0; a < matrix.length; a++){
-            if(matrix[i][a] == "*"){
-                tmpMatrix[a][i] = "*";
-            }
+    for(int i  = 0; i < matrix.length; i++) {
+        for(int j = 0; j < matrix.length; j++) {
+            String tmp =  matrix[i][j];
+
+            tmpMatrix[j][matrix.length-i-1] = tmp;
         }
     }
-    return tmpMatrix;
+
+    setMatrix(tmpMatrix);
 }
 }
