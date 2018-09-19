@@ -2,7 +2,6 @@ import org.junit.jupiter.api.*;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
 
-@RunWith(JUnitPlatform.class)
 @DisplayName("Testing Sudoku")
 class SudokuTest {
 
