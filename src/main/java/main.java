@@ -17,10 +17,11 @@ public class main {
 
         tetrisTest tetris = new tetrisTest();
 
-        Grid grid = new Grid(10, 10);
+        Grid grid = new Grid(5, 5);
         grid.writeCell(0, 0, new Color("#a958a5", "#a958a5"));
         System.out.println(grid.readCell(0, 0).getHex());
-
+        Color[][] mirrored = grid.addMirrored(2, 1, new Color("#a958a5", "#a958a5"));
+        grid.displayMatrix(mirrored);
     }
 
 

@@ -30,10 +30,30 @@ public class Grid {
     Color readCell(int x, int y) {
         return grid[x][y];
     }
+
     void writeCell(int x, int y, Color newColor) {
         grid[x][y] = newColor;
     }
 
-    //Color readCell(int x, int y);
-      //  void writeCell(int x, int y, Color newColor);
+    Color[][] addMirrored(int x, int y, Color color) {
+        
+        Color[][] matrix = new Color[width * 2][height * 2];
+
+        matrix[x][y] = color;
+        matrix[x][y*2] = color;
+        matrix[x*2][y] = color;
+        matrix[x*2][y*2] = color;
+
+        return matrix;
+    }
+
+    public void displayMatrix(Color[][] matrix) {
+        for(int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix.length; j++) {
+                if(matrix[i][j] == null) matrix[i][j] = new Color(" ", " ");
+                System.out.print(" " + matrix[i][j].getHex());
+            }
+            System.out.println();
+        }
+    }
 }
