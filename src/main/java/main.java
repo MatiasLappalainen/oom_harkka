@@ -23,8 +23,22 @@ public class main {
         //tetris.drawMatrix(tetris.rotateNinety(tetris.matrixPyramid()));
         int temp = rand.nextInt(7);
 
+        tetris.setMatrix(tetris.matrixL());
+        tetris.drawMatrix();
+        tetris.rotateNinety();
+        tetris.drawMatrix();
+        tetris.rotateNinety();
+        tetris.drawMatrix();
+        tetris.rotateNinety();
+        tetris.drawMatrix();
+        tetris.rotateNinety();
+        tetris.drawMatrix();
+        tetris.rotateNinety();
+
+
+
         /*järkyttävää paskaa +1 */
-            if(temp == 0){
+           /* if(temp == 0){
                 tetris.setMatrix(tetris.matrixJ());
                 tetris.drawMatrix();
                 tetris.rotateNinety();
@@ -39,7 +53,6 @@ public class main {
             else if(temp == 2){
                 tetris.setMatrix(tetris.matrixSquare());
                 tetris.drawMatrix();
-                tetris.rotateNinety();
                 tetris.drawMatrix();
             }
             else if(temp == 3){
@@ -65,7 +78,7 @@ public class main {
                 tetris.drawMatrix();
                 tetris.rotateNinety();
                 tetris.drawMatrix();
-            }
+            }*/
 
     }
 

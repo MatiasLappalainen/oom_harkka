@@ -3,10 +3,6 @@ public class tetrisTest {
 
     public String[][] matrix = new String[4][4];
 
-    public void setMatrix(String[][] matrix) {
-        this.matrix = matrix;
-    }
-
     public String[][] matrixJ(){
     int i = 0;
     while (i < 3){
@@ -42,7 +38,7 @@ public String[][] matrixSquare(){
 
 public String[][] matrixLong(){
     for(int i = 0; i < 4; i++){
-        matrix[i][2] = "*";
+        matrix[i][0] = "*";
     }
     return matrix;
 }
@@ -102,4 +98,14 @@ public void rotateNinety(){
 
     setMatrix(tmpMatrix);
 }
+
+
+    public void setMatrix(String[][] matrix) {
+        this.matrix = matrix;
+    }
+
+    public String[][] getMatrix() {
+        return matrix;
+    }
+
 }
