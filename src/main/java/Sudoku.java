@@ -14,21 +14,34 @@ class Sudoku {
     protected boolean onSudoku() {
         for (int i = 0; i < 9; i++) {
 
+            /*Tee uudet listat,
+             joiden avulla voidaan vertailla
+            */
             int[] row = new int[9];
             int[] square = new int[9];
+
+            // cloonaa sudoku i rivi
             int[] column = sudoku[i].clone();
 
+            /*
+                Lisää sudokun alkioita listoihin
+            */
             for (int j = 0; j < 9; j ++) {
                 row[j] = sudoku[j][i];
+
+                // Käy läpi sudoku ruudukon
                 square[j] = sudoku[(i / 3) * 3 + j / 3][i * 3 % 9 + j % 3];
             }
-            if (!(validate(column) && validate(row) && validate(square)))
+
+            // Jos jokin tarkistus on false niin palauta false
+            if (!(tarkista(column) && tarkista(row) && tarkista(square)))
                 return false;
         }
         return true;
     }
 
-    protected boolean validate(int[] check) {
+    // Tarkistaa onko listassa kaikki 1-9 numerot
+    protected boolean tarkista(int[] check) {
         int i = 0;
         Arrays.sort(check);
         for (int number : check) {
