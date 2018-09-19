@@ -106,9 +106,9 @@
 % käyttäjän omat määrittelyt
 \newcommand{\bx}{\mathbf{x}}
 
-\title{Olio-ohjelmoinnin metodiikka demo 1}
+\title{Olio-ohjelmoinnin metodiikka demo1}
 \author{Petri Holopainen, Matias Lappalainen, Topi Koivunen ja Oskari Vahala\\[1cm]
- Turun yliopisto}
+}
 \date{Syyskuu 2018}
 
 \begin{document}    % tekstin muodostus alkaa
@@ -117,9 +117,10 @@
 %\clearpage % poista kommentti merkki, jos haluat sivunvaihdon sisällysluettelon jälkeen
 
 
-\section{}
-
-Ei ole luokkaa, jolla olisi toiminnallisuutta värien lisäykseen, eli päivitysten tekeminen olisi hankalaa. Värejä on vain kymmenen, joten mainiin täytyy lisätä lisää värejä tarvittaessa. Sovelluskehitykseen ohjelma on todella huono ja puutteellinen. Värejä voi määritellä vain heksalla, ei rgba:lla tai muilla värinmääritysmenetelmillä.
+\section{Teht 1}
+\title{c)}
+\newline
+Ei ole luokkaa, jolla olisi toiminnallisuutta värien lisäykseen, eli päivitysten tekeminen olisi hankalaa. Värejä on vain kymmenen, joten main-luokkaan täytyy lisätä värejä tarvittaessa. Sovelluskehitykseen ohjelma on todella huono ja puutteellinen. Värejä voi määritellä vain heksalla, ei rgba:lla tai muilla värinmääritysmenetelmillä.
 
 
 \addcontentsline{toc}{section}{Kirjallisuutta} % lisätään sisällysluettelon tietoihin
@@ -127,7 +128,6 @@ Ei ole luokkaa, jolla olisi toiminnallisuutta värien lisäykseen, eli päivitys
 
 \newpage
 
-\title{Teht 1}
 \begin{lstlisting}
 public class Colors {
 
@@ -200,9 +200,119 @@ class Color {
 \end{lstlisting}
 
 \newpage
+\section{Teht 2}
+\title{a)}
 
-\section{asd}
-tehtävän ensimmäinen metodi palauttaa väri olion annetuista coordinaateista.
+\begin{lstlisting}
+/**
+     * @.pre true
+     * @.post sudoku.length == koko
+     */
+    public Sudoku() {
+        this.sudoku = new int[koko][koko];
+    }
+\end{lstlisting}
+\title{b)
+\begin{lstlisting}
+ protected boolean onSudoku() {
+        for (int i = 0; i < 9; i++) {
+
+            /*Tee uudet listat,
+             joiden avulla voidaan vertailla
+            */
+            int[] row = new int[9];
+            int[] square = new int[9];
+
+            // cloonaa sudoku i rivi
+            int[] column = sudoku[i].clone();
+
+            /*
+                Lisaa sudokun alkioita listoihin
+            */
+            for (int j = 0; j < 9; j ++) {
+                row[j] = sudoku[j][i];
+
+                // Kay lapi sudoku ruudukon
+                square[j] = sudoku[(i / 3) * 3 + j / 3][i * 3 % 9 + j % 3];
+            }
+
+            // Jos jokin tarkistus on false niin palauta false
+            if (!(tarkista(column) && tarkista(row) && tarkista(square)))
+                return false;
+        }
+        return true;
+    }
+\end{lstlisting}}
+\title{c)}
+B-kohdan metodi onSudoku kutsuu tarkista-metodia
+\begin{lstlisting}
+    // Tarkistaa onko listassa kaikki 1-9 numerot
+    protected boolean tarkista(int[] check) {
+        int i = 0;
+        Arrays.sort(check);
+        for (int number : check) {
+            if (number != ++i)
+                return false;
+        }
+        return true;
+    }
+\end{lstlisting}
+\title{d)}
+\begin{lstlisting}
+    public void rotateSudoku() {
+        for (int i = 0; i < koko / 2; i++) {
+
+            for (int j = i; j < koko-i-1; j++) {
+                int temp = sudoku[i][j];
+
+                sudoku[i][j] = sudoku[j][koko-1-i];
+
+                sudoku[j][koko-1-i] = sudoku[koko-1-i][koko-1-j];
+
+                sudoku[koko-1-i][koko-1-j] = sudoku[koko-1-j][i];
+
+                sudoku[koko-1-j][i] = temp;
+            }
+        }
+    }
+\end{lstlisting}
+\title{e)}
+\begin{lstlisting}
+import org.junit.jupiter.api.*;
+import org.junit.platform.runner.JUnitPlatform;
+import org.junit.runner.RunWith;
+
+@DisplayName("Testing Sudoku")
+class SudokuTest {
+
+    Sudoku sudoku;
+
+    @BeforeEach
+    void init() {
+        System.out.println("Running test");
+    }
+
+    @RepeatedTest(1000)
+    void test1() {
+
+        sudoku = new Sudoku();
+
+        sudoku.generateSudoku();
+
+        boolean case1 = sudoku.onSudoku();
+        sudoku.rotateSudoku();
+        boolean case2 = sudoku.onSudoku();
+
+        Assertions.assertEquals(case1, case2);
+    }
+
+}
+
+\end{lstlisting}
+\section{Teht 3}
+\title{a)}
+\newline
+Tehtävän ensimmäinen metodi palauttaa väriolion annetuista koordinaateista.
 
 \begin{lstlisting}
     /**
@@ -211,9 +321,7 @@ tehtävän ensimmäinen metodi palauttaa väri olion annetuista coordinaateista.
     */
     readCell(int x, int y)
 \end{lstlisting}
-
-WriteCell methodi lisää väri olion koordinaatteihin x, y
-
+WriteCell metodi lisää väriolion koordinaatteihin x, y.
 \begin{lstlisting}
     /**
     ** @.pre x != null && y != null && Color == Color
@@ -221,10 +329,8 @@ WriteCell methodi lisää väri olion koordinaatteihin x, y
     */
     writeCell(int x, int y, Color)
 \end{lstlisting}
+Width ja height kertovat ruudukon dimensiot. Ainakin readCell metodin määrittelyä tulee muuttaa siten, että methodi voi palauttaa myös undefinedia, sillä ruudukon muistia ei ole alustettu. Määrittely ei ota kantaa algoritmiin, koska määrittelyä ei tarvitse muuttaa, sillä negatiivisuus otetaan huomioon alkuperäisessä.
 
-Width ja height kertovat ruudukon dimensiot.
-
-Ainakin readCell methodin määrittelyä tulee muuttaa siten, että methodi voi palauttaa myös undefinedia, sillä muistipaikalla ei ole mitään.
 
 
 \end{document}
