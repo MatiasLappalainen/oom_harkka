@@ -86,6 +86,38 @@ public void drawMatrix(){
 }
 }
 
+public void randomMatrix() {
+        Random r = new Random();
+
+        int temp = r.nextInt();
+
+    if(temp == 0){
+        setMatrix(matrixJ());
+    }
+    else if(temp == 1){
+        setMatrix(matrixL());
+    }
+    else if(temp == 2){
+        setMatrix(matrixSquare());
+
+    }
+    else if(temp == 3){
+        setMatrix(matrixPyramid());
+    }
+    else if(temp == 4){
+        setMatrix(matrixLong());
+
+    }
+    else if(temp == 5){
+        setMatrix(matrixZag());
+
+    }
+    else{
+        setMatrix(matrixZig());
+
+    }
+}
+
 public void rotateNinety(){
     String[][] tmpMatrix = new String[matrix.length][matrix.length];
     for(int i  = 0; i < matrix.length; i++) {
