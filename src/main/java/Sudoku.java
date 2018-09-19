@@ -6,6 +6,10 @@ class Sudoku {
 
     public final int koko = 9;
 
+    /**
+     * @.pre true
+     * @.post sudoku.length == koko
+     */
     public Sudoku() {
         this.sudoku = new int[koko][koko];
     }
