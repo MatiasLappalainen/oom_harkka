@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class tetrisTest {
+public class Tetris {
 
     public String[][] matrix = new String[4][4];
 
@@ -119,6 +119,7 @@ public class tetrisTest {
         }
     }
 
+
     public void rotateNinety() {
         String[][] tmpMatrix = new String[matrix.length][matrix.length];
         for (int i = 0; i < matrix.length; i++) {
@@ -132,6 +133,7 @@ public class tetrisTest {
         setMatrix(tmpMatrix);
     }
 
+    // Getterit ja Setterit
     public void setMatrix(String[][] matrix) {
         this.matrix = matrix;
     }

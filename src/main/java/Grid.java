@@ -4,6 +4,11 @@ public class Grid {
     int height;
     Color[][] grid;
 
+    /**
+     * Määrittää uuden grid olion
+     * @.pre (width != null && width > 0 && height != null && height > 0)
+     * @.post true
+    **/
     public Grid(int width, int height) {
         this.width = width;
         this.height = height;
@@ -11,6 +16,8 @@ public class Grid {
         Color color = new Color("#a958a5", "#a958a5");
     }
 
+
+    // Getters and setters
     void setWidth(int width) {
         this.width = width;
     }
@@ -27,14 +34,29 @@ public class Grid {
         return height;
     }
 
+    /**
+     * Lukee taulukosta annetun solun ja palauttaa sen
+     * @.pre (x > 0 && x != null && y > 0 && y != null)
+     * @.post (grid == Object Color || grid == null)
+     */
     Color readCell(int x, int y) {
         return grid[x][y];
     }
 
+    /**
+     * Kirjoittaa taulukkoon uuden väri-arvon kohtaan x ja y
+     * @.pre (x > 0 && x != null && y > 0 && y != null && newColor != null)
+     * @.post true
+     **/
     void writeCell(int x, int y, Color newColor) {
         grid[x][y] = newColor;
     }
 
+    /**
+     * Ottaa yhden pisteen ja palauttaa kolme muuta peilattuna
+     * @.pre (x > 0 && x != null && y > 0 && y != null && color == Object Color)
+     * @.post matrix.length >= 4
+     */
     Color[][] addMirrored(int x, int y, Color color) {
         
         Color[][] matrix = new Color[width * 2][height * 2];
@@ -47,6 +69,10 @@ public class Grid {
         return matrix;
     }
 
+    /**
+     * @.pre matrix != null
+     * @.post true
+     * */
     public void displayMatrix(Color[][] matrix) {
         for(int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix.length; j++) {

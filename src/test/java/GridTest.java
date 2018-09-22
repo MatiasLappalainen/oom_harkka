@@ -1,5 +1,4 @@
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.RepeatedTest;
 
 
@@ -8,8 +7,8 @@ public class GridTest {
     @RepeatedTest(1000)
     public void test1() {
 
-        tetrisTest tetris1 = new tetrisTest();
-        tetrisTest tetris2 = new tetrisTest();
+        Tetris tetris1 = new Tetris();
+        Tetris tetris2 = new Tetris();
 
         tetris1.setMatrix(tetris1.matrixPyramid());
         tetris2.setMatrix(tetris2.matrixPyramid());

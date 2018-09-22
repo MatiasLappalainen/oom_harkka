@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Random;
-
 public class main {
 
     public main() {
@@ -15,7 +12,7 @@ public class main {
         sudoku.displaySudoku();
         System.out.println(sudoku.onSudoku());
 
-        tetrisTest tetris = new tetrisTest();
+        Tetris tetris = new Tetris();
 
         Grid grid = new Grid(5, 5);
         grid.writeCell(0, 0, new Color("#a958a5", "#a958a5"));
