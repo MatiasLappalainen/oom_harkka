@@ -5,6 +5,7 @@
 \usepackage[utf8]{inputenc} % skandit utf-8 koodauksella (uudet tiedostot)
 \usepackage{listings}
 \usepackage{color}
+\usepackage{hyperref}
 %\usepackage[latin1]{inputenc} % skandit utf-8 koodauksella (vanhat tiedostot)
 
 \usepackage{graphicx} %dokumentti sisältää eps-muotoisia kuvia
@@ -105,7 +106,8 @@
 \newcommand{\bx}{\mathbf{x}}
 
 \title{Olio-ohjelmoinnin metodiikka demo1}
-\author{Petri Holopainen, Matias Lappalainen, Topi Koivunen ja Oskari Vahala\\[1cm]
+\author{Petri Holopainen 73411, Matias Lappalainen 518304,
+\\ Topi Koivunen 517680 ja Oskari Vahala 515471\\[1cm]
 }
 \date{Syyskuu 2018}
 
@@ -331,9 +333,9 @@ WriteCell metodi lisää väriolion koordinaatteihin x, y.
 Width ja height kertovat ruudukon dimensiot. Ainakin readCell metodin määrittelyä tulee muuttaa siten, että methodi voi palauttaa myös undefinedia, sillä ruudukon muistia ei ole alustettu. Määrittely ei ota kantaa algoritmiin, koska määrittelyä ei tarvitse muuttaa, sillä negatiivisuus otetaan huomioon alkuperäisessä.
 \section{Teht 4}
 \title{a)}
-\begin{lstlisting}
+\href{https://github.com/MatiasLappalainen/oom_harkka/blob/master/src/main/java/Tetris.java}{Github-linkki josta löytyy kyseinen tehtävä}
 
-\end{lstlisting}
+\newpage
 \title{b)}
 \begin{lstlisting}
  /**
@@ -370,7 +372,7 @@ Width ja height kertovat ruudukon dimensiot. Ainakin readCell metodin määritte
 \end{lstlisting}
 \title{c)}
 \begin{lstlisting}
- public class Tetris {
+ public class tetrisTest {
 
     public String[][] matrix = new String[4][4];
 
@@ -469,8 +471,8 @@ public class GridTest {
     @RepeatedTest(1000)
     public void test1() {
 
-        Tetris tetris1 = new Tetris();
-        Tetris tetris2 = new Tetris();
+        tetrisTest tetris1 = new tetrisTest();
+        tetrisTest tetris2 = new tetrisTest();
 
         tetris1.setMatrix(tetris1.matrixPyramid());
         tetris2.setMatrix(tetris2.matrixPyramid());
@@ -484,4 +486,4 @@ public class GridTest {
 }
 
 \end{lstlisting}
-\end{document}
+\end{document}r
