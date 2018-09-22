@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c001a48d-fe54-4fa5-9051-4fb0db3d8cf7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oom_teht.tex" beforeDir="false" afterPath="$PROJECT_DIR$/oom_teht.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Grid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sudoku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tetrisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tetris.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GridTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tetris.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -289,8 +283,8 @@
       <file leaf-file-name="Tetris.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tetris.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="135" column="27" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
+            <state relative-caret-position="-124">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#1912#1913#0" expanded="true" />
                 <element signature="e#1948#1949#0" expanded="true" />
@@ -626,7 +620,7 @@
       <workItem from="1537078191604" duration="4675000" />
       <workItem from="1537084782461" duration="1399000" />
       <workItem from="1537086281022" duration="1405000" />
-      <workItem from="1537121130680" duration="21637000" />
+      <workItem from="1537121130680" duration="22001000" />
     </task>
     <servers />
   </component>
@@ -663,7 +657,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29116000" />
+    <option name="totallyTimeSpent" value="29480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -680,12 +674,12 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32848486" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32969698" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -1128,8 +1122,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tetris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="135" column="27" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
+        <state relative-caret-position="-124">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#1912#1913#0" expanded="true" />
             <element signature="e#1948#1949#0" expanded="true" />

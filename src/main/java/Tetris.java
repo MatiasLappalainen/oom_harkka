@@ -4,6 +4,10 @@ public class Tetris {
 
     public String[][] matrix = new String[4][4];
 
+    /**
+     * @.pre true
+     * @.post (matrix == String[][] && matrix != null)
+     */
     public String[][] matrixJ() {
         int i = 0;
         while (i < 3) {
@@ -14,6 +18,10 @@ public class Tetris {
         return matrix;
     }
 
+    /**
+     * @.pre true
+     * @.post (matrix == String[][] && matrix != null)
+     */
     public String[][] matrixL() {
 
         int i = 0;
@@ -25,6 +33,10 @@ public class Tetris {
         return matrix;
     }
 
+    /**
+     * @.pre true
+     * @.post (matrix == String[][] && matrix != null)
+     */
     public String[][] matrixSquare() {
 
         for (int i = 0; i < 2; i++) {
@@ -37,6 +49,10 @@ public class Tetris {
         return matrix;
     }
 
+    /**
+     * @.pre true
+     * @.post (matrix == String[][] && matrix != null)
+     */
     public String[][] matrixLong() {
         for (int i = 0; i < 4; i++) {
             matrix[i][0] = "*";
@@ -44,6 +60,10 @@ public class Tetris {
         return matrix;
     }
 
+    /**
+     * @.pre true
+     * @.post (matrix == String[][] && matrix != null)
+     */
     public String[][] matrixZig() {
 
         for (int i = 1; i < 3; i++) {
@@ -55,6 +75,10 @@ public class Tetris {
         return matrix;
     }
 
+    /**
+     * @.pre true
+     * @.post (matrix == String[][] && matrix != null)
+     */
     public String[][] matrixZag() {
 
         for (int i = 0; i < 2; i++) {
@@ -66,6 +90,10 @@ public class Tetris {
         return matrix;
     }
 
+    /**
+     * @.pre true
+     * @.post (matrix == String[][] && matrix != null)
+     */
     public String[][] matrixPyramid() {
 
         matrix[1][0] = "*";
