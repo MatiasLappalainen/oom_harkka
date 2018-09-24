@@ -1,0 +1,30 @@
+Tehtävä 1
+
+2.1 
+
+a) fi.utu.oomkit.gui 
+    Julkiset luokat
+        MainWindowBase
+        OOMApp
+        ReactiveCanvas (aliluokka)
+        ReactiveLabel (aliluokka)
+        SimpleCanvas (aliluokka) 
+        Point
+        
+    Suojatut luokat
+        DefaultDialogFactory 
+        FXConsole
+        MergedStream
+        SimpleMainWindow (aliluokka)
+        StreamWrapper (aliluokka)
+
+    fi.utu.oomkit.example.emptyapp
+        Julkinen
+            EmptyApp
+    fi.utu.oomkit.components.properties
+        Julkinen
+            ObservableBase
+
+    fi.utu.oomkit
+        Julkinen
+            AppConfiguration
