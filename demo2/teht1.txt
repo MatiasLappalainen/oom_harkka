@@ -61,7 +61,10 @@ c)
     Muokattavuus
 
     On mahdollista muokata viewratiota, side viewratiota, palkkien sisältöjä ja ikkunan dimensioita muuttamalla alkuperäistä lähdekoodia, koska muuttujien tyypit final.
-    
+
+d)
+    Muutetaan AppLogic-luokasta tickDuration 1000ms --> 25ms.
+    Scheduled-luokkaa puukotetaan siten, että system.out.print korvataan esim. kutsumalla asiakkaan metodia. 
 
 
 
