@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: net.jqwik:jqwik:0.8.15:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.jqwik/jqwik/jars/jqwik-0.8.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.jqwik/jqwik/srcs/jqwik-0.8.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
