@@ -36,3 +36,13 @@ a)
 		Fysiikkamoottori
 			-banaanin liiketila
 			-tuuli
+
+b)
+	
+	Analyysiluokat
+		PeliMaailma
+			-Luo koko peli-ikkunan ja sen sisällön
+		FysiikkaMoottori
+			-Laskee jatkuvasti banaanin koordinaatteja, tarkistaa onko lentoradalla objekteja,
+			määrittelee tuulen suuntaa ja nopeutta
+	
