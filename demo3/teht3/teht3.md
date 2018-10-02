@@ -35,3 +35,4 @@ a)
 			-sijainti
 		Fysiikkamoottori
 			-banaanin liiketila
+			-tuuli
