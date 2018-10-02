@@ -17,8 +17,21 @@ a)
 		Gorilla
 			-lukumäärä: 2
 			-sijainti
+			-poistaGorilla()
+			-luoGorilla()
 		Aurinko
 			-ilme
 			-sijainti
 		Pistelaskuri
 			-pistemäärä
+		PeliLogiikka
+			-heittovuoro
+			-lisääPisteitä()
+			-aloitus()
+			-lopetus()
+			-erä
+			-osuma()
+		Banaani
+			-sijainti
+		Fysiikkamoottori
+			-banaanin liiketila
