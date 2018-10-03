@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c001a48d-fe54-4fa5-9051-4fb0db3d8cf7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/oom-demo3-teht2/SolmuLinkki.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3/teht4/Maailma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oom-demo3-teht2/SolmuLinkki.java" beforeDir="false" afterPath="$PROJECT_DIR$/oom-demo3-teht2/SolmuLinkki.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/PeliLogiikka.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,14 +46,30 @@
       </file>
       <file leaf-file-name="SolmuLinkki.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oom-demo3-teht2/SolmuLinkki.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#3927#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Maailma.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo3/teht4/Maailma.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -69,6 +86,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>rand.nextInt</find>
+      <find>kaari</find>
+      <find>sisältääKaaren</find>
+      <find>annaLähtevä</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,6 +111,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Grid.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tetris.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/oom-demo3-teht2/SolmuLinkki.java" />
+        <option value="$PROJECT_DIR$/demo3/teht4/Maailma.java" />
       </list>
     </option>
   </component>
@@ -130,7 +152,13 @@
             <path>
               <item name="Sudoku" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sudoku" type="462c0819:PsiDirectoryNode" />
-              <item name="oom-demo3-teht2" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
+              <item name="teht4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,6 +182,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3770115" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -306,7 +335,7 @@
       <workItem from="1537086281022" duration="1405000" />
       <workItem from="1537121130680" duration="23459000" />
       <workItem from="1537955061668" duration="159000" />
-      <workItem from="1538479738702" duration="555000" />
+      <workItem from="1538479738702" duration="4366000" />
     </task>
     <servers />
   </component>
@@ -343,7 +372,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31652000" />
+    <option name="totallyTimeSpent" value="35463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -363,8 +392,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" visible="true" weight="0.32" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27896994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -376,7 +406,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -647,20 +676,34 @@
     <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/PeliLogiikka.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oom-demo3-teht2/SolmuLinkki.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oom-demo3-teht2/SolmuLinkki.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#3927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3/teht4/Maailma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
