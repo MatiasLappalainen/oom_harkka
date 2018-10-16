@@ -241,7 +241,7 @@ class OpiskelijaAllas {
 
     public void printOpiskelijat(Object o) {
 
-            System.out.println(((TavallinenOpiskelija)o).nimi + "  :  " + ((TavallinenOpiskelija)o).opNumero);
+            System.out.println(((TavallinenOpiskelija)o).nimi + "  :  " + ((TavallinenOpiskelija)o).opNumero + "   :   " + ((TavallinenOpiskelija)o).annaOOMTilanne().ilmoittautunut);
 
     }
 }
@@ -307,7 +307,7 @@ public class OOMKurssi {
     public static void main(String[] args) {
         int vuosi = 2018;
         //int uhriMäärä = 100 + new java.util.Random().nextInt(10 * (vuosi - 2000));  // Kommentoimme pois randomin ja testasimme,
-                                                                                    // että tulos on järkevä
+                                                                                      // että tulos on järkevä
         //Opiskelija[] opiskelijat = hankiOpiskelijat(uhriMäärä);
         //new OOMKurssi().pidäVuosittainenInstanssi(opiskelijat);
 
