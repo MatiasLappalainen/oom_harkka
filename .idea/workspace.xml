@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c001a48d-fe54-4fa5-9051-4fb0db3d8cf7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/demo4/teht1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo4/teht1b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo4/teht3/Laji.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo4/teht3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo3/teht4/OOMKurssi.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo3/teht4/OOMKurssi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo4/teht2/alykkyysTesti.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,51 +18,112 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OOMKurssi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo3/teht4/OOMKurssi.java">
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4/teht2/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="252" column="43" selection-start-line="252" selection-start-column="43" selection-end-line="252" selection-end-column="43" />
+            <state relative-caret-position="-330">
+              <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2565#2566#0" expanded="true" />
-                <element signature="e#2598#2599#0" expanded="true" />
-                <element signature="e#4231#4232#0" expanded="true" />
-                <element signature="e#4264#4265#0" expanded="true" />
-                <element signature="e#4660#4661#0" expanded="true" />
-                <element signature="e#4708#4709#0" expanded="true" />
-                <element signature="e#4762#4763#0" expanded="true" />
-                <element signature="e#4805#4806#0" expanded="true" />
-                <element signature="e#5316#5317#0" expanded="true" />
-                <element signature="e#5354#5355#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#8598#8649#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teht1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo4/teht1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="93" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="93" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teht1b.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo4/teht1b.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4/teht3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <state relative-caret-position="90">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding>
+                <element signature="e#56#57#0" expanded="true" />
+                <element signature="e#79#80#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Laji.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo4/teht3/Laji.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="599">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+              <folding>
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlykkyysLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/AlykkyysLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoApp1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/demo/DemoApp1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoApp2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/demo/DemoApp2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="64" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoApp3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/demo/DemoApp3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1298">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlykkyysTesti.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/AlykkyysTesti.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,6 +143,8 @@
       <find>kaari</find>
       <find>sisältääKaaren</find>
       <find>annaLähtevä</find>
+      <find>drawFore</find>
+      <find>js</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,6 +172,13 @@
         <option value="$PROJECT_DIR$/demo3/teht4/OOMKurssi.java" />
         <option value="$PROJECT_DIR$/demo4/teht1.txt" />
         <option value="$PROJECT_DIR$/demo4/teht1b.java" />
+        <option value="$PROJECT_DIR$/demo4/teht2/teht2/build.sbt" />
+        <option value="$PROJECT_DIR$/demo4/teht2/teht2/src/main/java/AlykkyysLogic.java" />
+        <option value="$PROJECT_DIR$/demo4/teht2/teht2/src/main/java/AlykkyysTesti.java" />
+        <option value="$PROJECT_DIR$/demo4/teht3/Eliö.java" />
+        <option value="$PROJECT_DIR$/demo4/teht3/main.java" />
+        <option value="$PROJECT_DIR$/demo4/teht3/Main.java" />
+        <option value="$PROJECT_DIR$/demo4/teht3/Laji.java" />
       </list>
     </option>
   </component>
@@ -128,7 +198,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -138,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,14 +219,30 @@
             <path>
               <item name="Sudoku" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="teht2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku" type="462c0819:PsiDirectoryNode" />
               <item name="demo4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sudoku" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sudoku" type="462c0819:PsiDirectoryNode" />
+              <item name="demo4" type="462c0819:PsiDirectoryNode" />
+              <item name="teht3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -173,9 +260,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3770115" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo4/teht2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/demo3/teht3" />
     </key>
@@ -335,6 +425,7 @@
       <workItem from="1537121130680" duration="23459000" />
       <workItem from="1537955061668" duration="159000" />
       <workItem from="1538479738702" duration="17300000" />
+      <workItem from="1540116609299" duration="9280000" />
     </task>
     <servers />
   </component>
@@ -371,7 +462,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48397000" />
+    <option name="totallyTimeSpent" value="58201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -386,24 +477,24 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214595" side_tool="true" weight="0.32" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32848486" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" visible="true" weight="0.32" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32848486" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785408" visible="true" weight="0.09090909" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -423,16 +514,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/MatoPeli.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/MatoPelaaja.java">
+    <entry file="file://$PROJECT_DIR$/demo4/teht2/Teht2App.java" />
+    <entry file="file://$PROJECT_DIR$/demo4/teht2/alykkyysTesti.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/MatoPeli.java" />
+    <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/MatoPelaaja.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Sudoku.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/main.java" />
@@ -661,26 +748,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/MatoPelaaja.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/MatoPeli.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/PeliLogiikka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/MatoPelaaja.java" />
+    <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/MatoPeli.java" />
+    <entry file="file://$PROJECT_DIR$/oom-demo2-teht2/src/main/java/PeliLogiikka.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -688,50 +758,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oom-demo3-teht2/SolmuLinkki.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2508">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#3927#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/oom-demo3-teht2/SolmuLinkki.java" />
     <entry file="file://$PROJECT_DIR$/demo3/teht4/Opiskelija.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/teht1.txt" />
+    <entry file="file://$PROJECT_DIR$/demo4/teht1b.java" />
+    <entry file="file://$PROJECT_DIR$/demo4/teht1/teht1b.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/demo3/teht4/OOMKurssi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="3630">
           <caret line="252" column="43" selection-start-line="252" selection-start-column="43" selection-end-line="252" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2565#2566#0" expanded="true" />
-            <element signature="e#2598#2599#0" expanded="true" />
-            <element signature="e#4231#4232#0" expanded="true" />
-            <element signature="e#4264#4265#0" expanded="true" />
-            <element signature="e#4660#4661#0" expanded="true" />
-            <element signature="e#4708#4709#0" expanded="true" />
-            <element signature="e#4762#4763#0" expanded="true" />
-            <element signature="e#4805#4806#0" expanded="true" />
-            <element signature="e#5316#5317#0" expanded="true" />
-            <element signature="e#5354#5355#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo4/teht1.txt">
+    <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/Teht2Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/Teht2App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="93" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="93" />
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo4/teht1b.java">
+    <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/demo/DemoApp1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state relative-caret-position="64">
+          <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/demo/DemoApp3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1298">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/demo/DemoApp2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/AlykkyysLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/teht2/src/main/java/AlykkyysTesti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/teht2/teht2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/teht2/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#8598#8649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/teht3/Eliö.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/teht3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#56#57#0" expanded="true" />
+            <element signature="e#79#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4/teht3/Laji.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
