@@ -17,7 +17,7 @@ name := "oom-oomkit-demo"
 // organization name
 organization := "fi.utu"
 
-version := "1.4"
+version := "1.6"
 
 // project description
 description := "OOMkit example applications"
@@ -52,7 +52,7 @@ val javaVersionNum = force_javaVersion getOrElse {
   sysVersion.split('.').head.toInt
 }
 
-// enablePlugins(JShellPlugin)
+//enablePlugins(JShellPlugin)
 
 val javaVersionString = javaVersionNum match {
   case 7 => "1.7"
