@@ -8,6 +8,8 @@ class Kuviopari extends Kuvio {
         this.sisä = sisä;
     }
 
+    
+
     @Override
     void draw(Point p, Color color, boolean filled, double size, GraphicsContext canvas) {
         this.ulko.draw(p, color, filled, size, canvas);

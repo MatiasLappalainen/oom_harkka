@@ -7,11 +7,13 @@ import java.util.Random;
 
 class AlykkyysTesti {
 
-            int col = 100;
-
-            int rowI = 1;
-            for (int i =
-                for (int j = 3 * i; j < (i + 1) * 3; j++) {
+    protected void drawForegroundContent(GraphicsContext canvas) {
+        int row = 100;
+        int col = 100;
+        Point[] points = new Point[9];
+        int rowI = 1;
+        for (int i = 0; i < 3; i++) {
+            for (int j = 3 * i; j < (i + 1) * 3; j++) {
                 points[j] = new Point(row * (i + 1), col * (1 + (j + 1) % 3));
             }
         }
@@ -21,23 +23,21 @@ class AlykkyysTesti {
             generateShape(generateRandomShape(), points[x], CoreColor.generateRandomColor(), true, 50D / 3, canvas);
         }
     }
+}
 
-        
-            
-            
-            
-
-            
-            
-            
-            
-
-            
-
-                    
     
 
-        
+    
+
+    
+
+    
+
+     
+
+    
+
+    
 
     
 
@@ -50,44 +50,4 @@ class AlykkyysTesti {
     
 
     
-
-
-
-        
-
-        
-
-        
-
-        
-        
-
-        
-
-        
-                
-             
-                
-             
-                
-             
-                
-        
-
-        
-            
-            
-            
-            
-             
-                       
-                                
-                
-            
-
-             
-                
-                  
-            
-        
 
